@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyBeforeAfterTest" project="unitTest" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.viswa.unitTest.MyBeforeAfterTest" time="0.001" displayname="MyBeforeAfterTest" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyBeforeAfterTest]">
+    <testcase name="test" classname="com.viswa.unitTest.MyBeforeAfterTest" time="0.0" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyBeforeAfterTest]/[method:test()]"/>
+    <testcase name="test1" classname="com.viswa.unitTest.MyBeforeAfterTest" time="0.001" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyBeforeAfterTest]/[method:test1()]"/>
+    <testcase name="test2" classname="com.viswa.unitTest.MyBeforeAfterTest" time="0.0" displayname="test2()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyBeforeAfterTest]/[method:test2()]"/>
+    <testcase name="test3" classname="com.viswa.unitTest.MyBeforeAfterTest" time="0.0" displayname="test3()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyBeforeAfterTest]/[method:test3()]"/>
+  </testsuite>
+</testrun>

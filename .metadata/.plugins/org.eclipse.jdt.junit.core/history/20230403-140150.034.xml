@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SomeBusinessImplMockTest" project="mockito-demo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplMockTest" time="0.699" displayname="SomeBusinessImplMockTest" uniqueid="[engine:junit-jupiter]/[class:com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplMockTest]">
+    <testcase name="findtheGreatestOfAll_basicScenario" classname="com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplMockTest" time="0.694" displayname="findtheGreatestOfAll_basicScenario()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplMockTest]/[method:findtheGreatestOfAll_basicScenario()]"/>
+    <testcase name="findtheGreatestOfAll_oneValue" classname="com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplMockTest" time="0.003" displayname="findtheGreatestOfAll_oneValue()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplMockTest]/[method:findtheGreatestOfAll_oneValue()]"/>
+  </testsuite>
+</testrun>

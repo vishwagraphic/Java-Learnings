@@ -1,0 +1,5 @@
+package com.viswa.learnspringsecurity.jwt;
+
+public class JwtAuthenticationResource {
+
+}

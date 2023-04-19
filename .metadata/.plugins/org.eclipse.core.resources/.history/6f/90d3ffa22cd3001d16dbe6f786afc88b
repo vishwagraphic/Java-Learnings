@@ -1,0 +1,3 @@
+spring.security.user.name=Viswa
+spring.security.user.password=Trichy
+#server.servlet.session.cookie.same-site=strict

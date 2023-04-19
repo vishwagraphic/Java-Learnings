@@ -1,0 +1,6 @@
+package com.viswa.learnspringsecurity;
+
+@RestController
+public class HelloWorldResource {
+
+}

@@ -1,0 +1,18 @@
+package com.viswa.learnspringsecurity.resource;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TodoResource {
+
+	@GetMapping("/todos")
+	public List<Todo> retreiveTodos() {
+		return List.of(new Todo("Viswa", "Learn AWS"), new Todo("Akshay", "Learn Java"))
+	}
+}
+
+record Todo(String username, String description) {}
+

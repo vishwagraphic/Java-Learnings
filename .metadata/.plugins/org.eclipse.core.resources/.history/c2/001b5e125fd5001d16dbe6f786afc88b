@@ -1,0 +1,8 @@
+package com.viswa.learnspringaop.aopexample.business;
+
+import com.viswa.learnspringaop.aopexample.data.DataService1;
+
+public class BusinessService1 {
+
+	private DataService1 dataService1;
+}

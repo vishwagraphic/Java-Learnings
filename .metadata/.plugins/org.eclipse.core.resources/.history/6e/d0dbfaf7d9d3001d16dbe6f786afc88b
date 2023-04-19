@@ -1,0 +1,6 @@
+
+#logging.level.org.springframework=debug
+#spring.security.user.name=Viswa
+#spring.security.user.password=Trichy
+#server.servlet.session.cookie.same-site=strict
+DB_CLOSE_ON_EXIT=FALSE"

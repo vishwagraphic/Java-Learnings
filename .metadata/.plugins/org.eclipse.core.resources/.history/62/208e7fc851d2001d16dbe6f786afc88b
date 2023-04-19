@@ -1,0 +1,23 @@
+package com.viswa.mockito.mockitodemo.somebusiness;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+
+import org.junit.jupiter.api.Test;
+
+class SomeBusinessImplMockTest {
+
+	@Test
+	void findtheGreatestOfAll_basicScenario() {
+		DataService dataServiceMock = mock(DataService.class);
+		//dataServiceMock.retrieveAllData() => new Int[] {1, 2,3};
+		when (dataServiceMock.retrieveAllData()).thenReturn(new int[] {1,2,3});
+		SomeBusinessImpl somebusiness = new SomeBusinessImpl(dataServiceMock);
+		int result = somebusiness.findTheGreatesOfAllData();
+		assertEquals(25, result);
+	}
+	
+
+}
+
+

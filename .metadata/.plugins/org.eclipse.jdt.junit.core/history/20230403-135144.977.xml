@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SomeBusinessImplTest" project="mockito-demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplTest" time="0.02" displayname="SomeBusinessImplTest" uniqueid="[engine:junit-jupiter]/[class:com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplTest]">
+    <testcase name="test" classname="com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplTest" time="0.02" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.mockito.mockitodemo.somebusiness.SomeBusinessImplTest]/[method:test()]"/>
+  </testsuite>
+</testrun>

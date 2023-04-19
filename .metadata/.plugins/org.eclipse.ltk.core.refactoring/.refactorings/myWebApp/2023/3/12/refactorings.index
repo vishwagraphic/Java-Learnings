@@ -1,0 +1,9 @@
+1679338495345	Delete element
+1679343438196	Rename type 'LoginController'
+1679348021337	Extract method 'getUserName'
+1679348717308	Extract local variable 'username'
+1679348741370	Extract local variable 'password'
+1679348777090	Extract method 'createUserDetails'
+1679348903306	Inline local variable 'username'
+1679348913140	Inline local variable 'password'
+1679414448766	Copy compilation unit

@@ -1,0 +1,29 @@
+package com.viswa.unitTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MyMathTest {
+
+	@Test
+	void test() {
+		MyMath math = new MyMath();
+		
+		int[] numbers = {1,2,3};
+		int result = math.calcualate(numbers);
+		int expectedResult = 6;
+		assertEquals(expectedResult, result);
+	}
+	
+	@Test
+	void test1() {
+		MyMath math = new MyMath();
+		
+		int[] numbers = {};
+		int result = math.calcualate(numbers);
+		int expectedResult = 0;
+		assertEquals(expectedResult, result);
+	}
+
+}

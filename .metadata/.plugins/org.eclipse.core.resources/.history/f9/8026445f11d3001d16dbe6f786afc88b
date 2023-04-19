@@ -1,0 +1,14 @@
+package com.viswa.learnspringsecurity.resource;
+
+import org.springframework.http.HttpRequest;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringSecurityPlayResource {
+
+	@GetMapping("/csrf-token")
+	public String retirieveCsrfToken(HttpRequest request) {
+		return "Hello World 1111";	
+	}
+}

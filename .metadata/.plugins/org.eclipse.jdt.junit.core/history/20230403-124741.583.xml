@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyMathTest" project="unitTest" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.viswa.unitTest.MyMathTest" time="0.017" displayname="MyMathTest" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyMathTest]">
+    <testcase name="test" classname="com.viswa.unitTest.MyMathTest" time="0.016" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyMathTest]/[method:test()]"/>
+    <testcase name="test1" classname="com.viswa.unitTest.MyMathTest" time="0.001" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:com.viswa.unitTest.MyMathTest]/[method:test1()]"/>
+  </testsuite>
+</testrun>

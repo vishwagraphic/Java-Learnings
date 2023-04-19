@@ -1,0 +1,30 @@
+package com.viswa.learnSpringBoot.learnspringbootwithh2.jpa;
+
+import org.springframework.stereotype.Repository;
+
+import com.viswa.learnSpringBoot.learnspringbootwithh2.Course1;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.transaction.Transactional;
+
+@Repository
+@Transactional
+public class CourseJpaRepository {
+	@PersistenceContext
+	EntityManager entityManager;
+	
+	public void insert(Course1 course) {
+		entityManager.merge(course);
+	}
+	
+	public Course1 findById(long id) {
+		return entityManager.find(Course1.class, id);
+	}
+	
+	public void deleteById(long id) {
+		Course1 course = entityManager.find(Course1.class, id);
+		entityManager.remove(course);
+	}
+
+}

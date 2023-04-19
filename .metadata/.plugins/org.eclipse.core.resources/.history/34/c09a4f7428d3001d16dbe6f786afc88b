@@ -1,0 +1,37 @@
+
+package com.viswa.learnspringsecurity.basic;
+
+import static org.springframework.security.config.Customizer.withDefaults;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.web.SecurityFilterChain;
+
+
+  //@Configuration
+  public class SpringAuthSecurityConfiguration {
+	
+	//Filter chain
+	//authenticate all reuquest
+	//basis authentication
+	//csrf disable
+	//stateless rest api
+  
+	  @Bean 
+	  public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+	  return 
+		  http.authorizeHttpRequests(auth -> auth.anyRequest().authenticated())
+		  	
+		  	.sessionManagement(
+				  session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+				  )
+		  	.httpBasic(withDefaults())
+		  	
+		  	.csrf().disable()
+		  	.build();
+	  
+	  } 
+ }
+ 

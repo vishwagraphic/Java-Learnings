@@ -1,0 +1,8 @@
+package com.viswa.learnspringsecurity;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldResource {
+
+}

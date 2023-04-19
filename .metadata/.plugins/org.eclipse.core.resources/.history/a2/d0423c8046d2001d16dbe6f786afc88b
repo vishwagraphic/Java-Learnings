@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+/**
+ * @author viswanathanlakshmi
+ *
+ */
+module unitTest {
+	requires org.junit.jupiter.api;
+	requires junit;
+}

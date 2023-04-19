@@ -1,0 +1,15 @@
+package com.viswa.mockito.mockitodemo.somebusiness;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SomeBusinessImplTest {
+
+	@Test
+	void test() {
+		SomeBusinessImpl somebusiness = new SomeBusinessImpl();
+		somebusiness.findTheGreatesOfAllData();
+	}
+
+}

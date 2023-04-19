@@ -1,0 +1,5 @@
+package com.viswa.learnspringsecurity;
+
+public class HelloWorldResource {
+
+}

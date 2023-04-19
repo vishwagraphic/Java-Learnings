@@ -1,0 +1,26 @@
+package com.viswa.mockito.mockitodemo.somebusiness;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SomeBusinessImplTest {
+
+	@Test
+	void test() {
+		DataServiceStub dataServiceStub = new DataServiceStub();
+		SomeBusinessImpl somebusiness = new SomeBusinessImpl(dataServiceStub);
+		somebusiness.findTheGreatesOfAllData();
+	}
+
+}
+
+class DataServiceStub implements DataService{
+
+	@Override
+	public int[] retrieveAllData() {
+		// TODO Auto-generated method stub
+		return new int[] {25,16,5};
+	}
+	
+}

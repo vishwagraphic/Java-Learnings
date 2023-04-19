@@ -1,0 +1,5 @@
+package com.viswa.learnspringaop.aopexample.business;
+
+public class BusinessService1 {
+
+}
